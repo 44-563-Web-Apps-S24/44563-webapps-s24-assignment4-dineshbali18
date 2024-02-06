@@ -37,14 +37,18 @@ table {
     padding: 10px;
     margin: 10px;
 }
+.table_header_col{
+    background-color: aquamarine;
+}
+
 th {
     border: 1px solid;
     border-radius: 5px;
-    border-color:darkblue;
-    color: white;
+    border-color: darkblue;
+    color: black;
     height: 50px;
-    background-color:rgb(222, 39, 91);
 }
+
 td {
     border: 1px solid;
     border-radius: 5px;
@@ -52,7 +56,10 @@ td {
     height: 30px;
 }
 
-tr:hover {background-color:dodgerblue;}
+tr:hover {
+    background-color: dodgerblue;
+    border: 2px solid black; /* Add this line to change the border color on hover */
+}
 
 .VOITSKI:hover{
     font-size: medium;
