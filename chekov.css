@@ -95,9 +95,9 @@ tr:hover {
         }
     ul.navbar-horizontal a {
         display:block;
-        padding:8px
+        padding:8px;
         }
     ul.navbar-horizontal a:hover {  
         background-color: rgb(26, 189, 151);
-        color:white;
+        color:rgb(143, 59, 59);
         }
